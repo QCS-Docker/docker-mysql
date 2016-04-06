@@ -14,5 +14,5 @@ mydb: 数据库名，userfoo：用户名，secret:用户密码，verysecret: roo
 
 ### 连接MySQL
 ```sh
-docker run --link  mysqld:slsay/docker-mysql -it --rm slsay/docker-mysql bash
+docker run --link  slsay/docker-mysql:mysql -it --rm mysql bash
 ```
